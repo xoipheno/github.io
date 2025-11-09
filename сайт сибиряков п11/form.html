@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма сибирякова</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+     <a id ="logo" href="index.html"><span class="www">Сайт</span> <i>визитка</i></a>
+            <nav id="mainnav">
+            <ul>
+    <li><a class=":hover" href="index.html">Главная</a></li>
+    <li><a class=":hover" href="uslugi.html">Услуги</a></li>
+    <li><a class=":hover" href="onas.html">О нас</a></li>
+    <li><a class=":hover" href="clients.html">Клиенты</a></li>
+    <li><a class=":hover" href="contact.html">Контакты</a></li>
+    <li><a class=":hover" href="form.html">Написать нам</a></li>
+</ul>
+</nav>
+<main >
+        <form id="contact-form" action="">
+            <div class="form_item">
+                <label for="topic">Тема</label>
+                <select name="topic" id="topic">
+<option value="1">Заказать услугу</option>
+<option value="2">Оставить отзыв/замечание</option>
+<option value="3">Предложить сотрудничество</option>
+<option value="4">Другое</option>
+                </select>
+            </div>
+        <div class="form_item">
+            <label for="topic">Имя</label>
+                <input type="text">
+            </div>
+            <div class="form_item">
+            <label for="topic">E-mail</label>
+                <input type="text">
+            </div>
+            <div>
+            <label for="textarea">Текст сообщения</label>
+<textarea id="textarea" rows="6"></textarea>
+            </div>
+            <p>
+                <button type="submit">Отправить</button>
+            </p>
+        </form>
+    </main>
